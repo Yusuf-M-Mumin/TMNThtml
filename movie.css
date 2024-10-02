@@ -1,0 +1,155 @@
+body {
+    background-image: url("background.png");
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+    margin: 0;
+    padding: 0;
+}
+
+.BoldLabel {
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.header-wrapper {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.header-background {
+    background-image: url('bannerbackground.png');
+    background-repeat: repeat-x;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-image {
+    position: relative;
+    z-index: 1;
+    height: 50px;
+}
+
+#TitleMovie {
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#ContentWrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border: 4px solid grey;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#MovieOverview {
+    width: 250px;
+    float: right;
+    background-color: #A2B964;
+}
+
+#OverviewText {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    padding-top: 0px;
+    font-size: 8pt;
+}
+
+#ReviewsSection {
+    width: 550px;
+    position: relative;
+    float: left;
+}
+
+#ScoreDisplay {
+    background-image: url("rottenbackground.png");
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    position: relative;
+}
+
+#ScoreDisplay > span {
+    display: inline-block;
+}
+
+#ScoreDisplay > div {
+    margin-left: 15px;
+    align-self: flex-end;
+}
+
+#ScoreDisplay > div p {
+    color: white;
+    font-size: 8pt;
+    margin: 0;
+    line-height: 1.2;
+    padding-bottom: 5px;
+}
+
+#ScoreDisplay img {
+    float: left;
+    margin-right: 5px;
+}
+
+.FeedbackColumn {
+    width: 47%;
+    float: left;
+    margin-left: 2%;
+}
+
+.Feedback {
+    font-size: 8pt;
+    background-color: #E8DC9B;
+    font-weight: bold;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ReviewerDetails {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.ReviewerDetails span {
+    font-style: italic;
+}
+
+#FeedbackCount {
+    background-color: #A2B964;
+    padding: 5px;
+    position: absolute;
+    bottom: -87px;
+    width: 550px;
+    text-align: center;
+}
+
+#HTMLCSSValidator {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.Validator {
+    opacity: 0.5;
+}
+
+li {
+    list-style-type: none;
+}
+
